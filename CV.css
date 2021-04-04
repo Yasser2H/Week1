@@ -1,5 +1,50 @@
 body {
-  background-color: #ffffff;
+  background-color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  padding: 4px 0px 4px 0px
+}
+
+th.tech-skills {
+  padding: 4px 6px 4px 0px;
+  text-align: right;
+}
+
+td.tech-skills-left {
+  padding: 4px 6px 4px 0px;
+  width: 45%;
+  text-align: right;
+}
+
+td.tech-skills-right {
+  padding: 4px 0px 4px 6px;
+  width: 55%;
+  text-align: left;
+}
+
+td.skills-left {
+  padding: 4px 6px 4px 0px;
+  width: 60%;
+  text-align: right;
+}
+
+td.skills-center {
+  padding: 4px 0px 4px 0px;
+  width: 20%;
+  text-align: center;
+}
+
+td.skills-right {
+  padding: 4px 0px 4px 0px;
+  width: 20%;
+  text-align: center;
 }
 
 hr {
@@ -13,7 +58,8 @@ ul#work-exp {
 }
 
 h1 {
-  color: green;
+  color: #203c6e;
+  text-align: center;
 }
 
 h2 {
