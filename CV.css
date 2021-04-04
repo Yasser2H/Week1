@@ -3,6 +3,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#banner {
+  width: 100%;
+  display: flex;
+}
+
+#div-profile-picture {
+  display: inline-block;
+  margin: auto 2px auto 26px;
+  padding: 0px;
+}
+
+#profile-picture {
+  box-shadow: 2px 2px 2px;
+}
+
+#info {
+  display: inline-block;
+  text-align: left;
+  margin: auto 6px auto 6px;
+  padding: 0 6px 0 6px;
+}
+
 table, th, td {
   border-collapse: collapse;
   border: 1px solid black;
@@ -67,4 +89,14 @@ h2 {
   position: relative;
   left: 4px;
   top: 16px;
+}
+
+.section {
+  margin-top: -16px;
+  padding: 0 16px 0 16px;
+}
+
+.section-content {
+  margin: -2px 0 0 0;
+  padding: 0 12px 0 12px;
 }
