@@ -57,6 +57,12 @@ body {
   padding: 0 6px 0 6px;
 }
 
+#hyf-info {
+  color: white;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
 table, th, td {
   border-collapse: collapse;
   border: 1px solid black;
