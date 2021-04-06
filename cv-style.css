@@ -63,8 +63,10 @@ body {
 }
 
 #hyf-info {
+  align-items: center;
+  width: auto;
   color: white;
-  margin-left: 20px;
+  margin: 0 auto 0 20px;
   line-height: 25px;
 }
 
@@ -79,36 +81,36 @@ th {
 
 th.tech-skills {
   padding: 4px 6px 4px 0px;
-  text-align: right;
+  text-align: center;
 }
 
 td.tech-skills-left {
   padding: 4px 6px 4px 0px;
   width: 45%;
-  text-align: right;
+  text-align: center;
 }
 
 td.tech-skills-right {
   padding: 4px 0px 4px 6px;
   width: 55%;
-  text-align: left;
+  text-align: center;
 }
 
 td.skills-left {
   padding: 4px 6px 4px 0px;
-  width: 60%;
-  text-align: right;
+  width: 40%;
+  text-align: center;
 }
 
 td.skills-center {
   padding: 4px 0px 4px 0px;
-  width: 20%;
+  width: 30%;
   text-align: center;
 }
 
 td.skills-right {
   padding: 4px 0px 4px 0px;
-  width: 20%;
+  width: 30%;
   text-align: center;
 }
 
