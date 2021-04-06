@@ -70,6 +70,10 @@ body {
   line-height: 25px;
 }
 
+#hyf-info ul {
+  margin-left: -10px;
+}
+
 table, th, td {
   border-collapse: collapse;
   border: 1px solid black;
